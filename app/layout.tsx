@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Special_Elite } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Special_Elite({ weight: '400',
+  preload: false,})
 
 export const metadata: Metadata = {
   title: 'Seckin NextJs Portfolio',
