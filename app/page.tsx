@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
-              className="rounded-[20px] group relative bg-blue-800 hover:bg-purple-700 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-teal-950 hover:bg-teal-700 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Learn more
             </Link>

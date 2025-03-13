@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Special_Elite } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
+import Navigation from '@/components/Navigation'
 
 const inter = Special_Elite({ weight: '400',
   preload: false,})
@@ -21,6 +22,7 @@ export default function RootLayout({
     <body className={inter.className}>
       <Navbar />
       {children}
+      <Navigation />
             </body>
   </html>
   )
