@@ -45,7 +45,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Next js 13",
+    name: "Next Js",
     Image: "/next.png",
     width: 80,
     height: 80,
