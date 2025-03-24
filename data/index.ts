@@ -57,7 +57,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
+    name: "Adobe Creative Cloud",
     Image: "/stripe.webp",
     width: 80,
     height: 80,
