@@ -12,10 +12,10 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
+            Seckin' Portfolio with NextJs &
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-red-500">
               {" "}
-              Web Development
+              Framer Motion
             </span>
           </h1>
           <p className="text-gray-300 hidden md:block">
