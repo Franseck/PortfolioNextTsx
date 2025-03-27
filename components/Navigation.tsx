@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 import Transition from "./Transition"
 import React, { useEffect, useState } from "react";
 
+
 const Navigation = () => {
     const [isRouting, setisRouting] = useState(false);
     const path = usePathname();
